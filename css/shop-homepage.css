@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-custompurple {
+  width: 100%;
+  background-color: #593196;
+  color: white;
+}
+.btn-rez {
+  background-color: #593196;
+  color: white;
+  border-radius: 1rem;
+  padding: .5rem 2rem;
+  margin: 0 .5rem;
+}
+.btn-rez:hover {
+  color: white;
+}
+body {
+  /*padding-top: 54px;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    /*padding-top: 56px;*/
+  }
+}
+
+responsiveimage {
+  height: auto;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 320px;
+	background: #593196;
+	margin-top: -100px;
+  z-index: -1;
+}
+.nav-link {
+  margin-right: 3rem
+}
+.nav-item.active .nav-link {
+  font-weight: bold;
+}
+.carousel {
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.card {
+  position: relative;
+  border-radius: 1rem;
+}
+.card a img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.card h5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #28a745;
+  color: #dcffe4;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  transform: translate(15%, -15%);
+}
+.card h5 s {
+  opacity: .5;
+}
+.card-title a:hover {
+  text-decoration: none;
+}
+
+.rezende-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 1rem 0 3rem 0;
+  position: relative;
+}
+.rezende-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+  margin: auto;
+  width: 30px;
+  height: 5px;
+  background: #593196;
+}
+
+.btn-custompurple {
+  padding: .6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: .5rem;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 10px;
+	z-index:9;
+    right: 25px
+}
+
+.social-media a {
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1)
+}
+
+.social-media a:hover {
+    -ms-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05)
+}
+
+.social-media a {
+    width: 60px;
+    height: 60px;
+    background: #593196;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20pt;
+    color: #fff!important;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out
+}
+
+.social-media img {
+    max-width: 32px;
+    position: relative;
+    top: -2px
+}
+
+@media screen and (max-width: 800px) {
+  .overlay {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .overlay {
+    height: 180px;
+  }
+}
